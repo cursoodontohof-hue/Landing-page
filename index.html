@@ -82,6 +82,14 @@
             .planejamento { gap: 20px; text-align: center; }
             .divider { margin: 0 auto 20px; }
         }
+        .foto-mentora {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px; /* Deixa os cantos arredondados */
+        display: block;
+        margin: 0 auto 15px;
+        object-fit: cover; /* Garante que a foto não fique esticada */
+    }
     </style>
 </head>
 <body>
@@ -132,12 +140,12 @@
         <h2 class="section-title" style="color: white;">As Mentoras</h2>
         <div class="mentoras-grid">
             <div class="mentora-card">
-                <div class="foto-placeholder">Foto Dra. Márcia</div>
+                <img src="img/marcia.jpg" alt="Dra. Márcia" class="foto-mentora">
                 <h3>Dra. Márcia Moura</h3>
                 <p>Ortodontista e Especialista em HOF. Expertise em visão global de face e oclusão.</p>
             </div>
             <div class="mentora-card">
-                <div class="foto-placeholder">Foto Dra. Silvia</div>
+                <img src="img/silvia.jpg" alt="Dra. Silvia" class="foto-mentora">
                 <h3>Dra. Silvia Adler</h3>
                 <p>Cirurgiã Buco-Maxilo-Facial e Especialista em HOF. Foco em segurança anatômica.</p>
             </div>
@@ -156,4 +164,5 @@
 </footer>
 
 </body>
+
 </html>
